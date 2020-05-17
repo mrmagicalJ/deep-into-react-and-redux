@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import ClickCounter from "./normal/ClickCounter";
+import ControlPanel from "./normal/ControlPanel";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ClickCounter />
+    <ControlPanel />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
